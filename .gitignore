@@ -1,0 +1,73 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---------- Virtual Environments ----------
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ---------- Scraper Output ----------
+media.json
+*.json
+!requirements.json
+output/
+downloads/
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# ---------- Cache & Temp ----------
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# ---------- IDE / OS ----------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Secrets (safety net) ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+session.txt
+cookies.txt
